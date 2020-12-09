@@ -1,0 +1,24 @@
+{
+  "name": "commander",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "keywords": [
+    "commands",
+    "command"
+  ],
+  "exports": {
+    "require": "./src/index.js"
+  },
+  "author": "Jviguy",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.15.0"
+  },
+  "devDependencies": {
+    "js-levenshtein": "^1.1.6"
+  }
+}
